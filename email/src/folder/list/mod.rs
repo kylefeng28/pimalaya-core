@@ -5,6 +5,8 @@ pub mod imap;
 pub mod maildir;
 #[cfg(feature = "notmuch")]
 pub mod notmuch;
+#[cfg(feature = "outlook")]
+pub mod outlook;
 
 use async_trait::async_trait;
 

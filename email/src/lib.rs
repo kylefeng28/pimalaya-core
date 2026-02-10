@@ -62,6 +62,8 @@ pub mod imap;
 pub mod maildir;
 #[cfg(feature = "notmuch")]
 pub mod notmuch;
+#[cfg(feature = "outlook")]
+pub mod outlook;
 pub mod retry;
 #[cfg(feature = "sendmail")]
 pub mod sendmail;
